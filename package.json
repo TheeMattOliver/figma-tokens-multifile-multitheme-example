@@ -1,0 +1,30 @@
+{
+  "name": "figma-tokens-multifile-multitheme-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform-light": "",
+    "transform-dark": "",
+    "transform": "yarn transform-light && yarn transform-dark",
+    "build": "node ./script/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheeMattOliver/figma-tokens-multifile-multitheme-example.git"
+  },
+  "keywords": [
+    "figma-tokens",
+    "design-systems",
+    "design-tokens",
+    "color",
+    "spacing",
+    "typography"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.23"
+  }
+}
