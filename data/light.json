@@ -110,29 +110,29 @@
           "description": "Use for backgrounds communicating a favourable outcome, such as in success section messages."
         },
         "hovered": {
-          "value": "#baf3db",
+          "value": "{color.green.400}",
           "type": "color",
           "description": "Hovered state for color.background.success"
         },
         "pressed": {
-          "value": "#7ee2b8",
+          "value": "{color.green.700}",
           "type": "color",
           "description": "Pressed state for color.background.success"
         }
       },
       "information": {
         "default": {
-          "value": "#e9f2ff",
+          "value": "{color.blue.300}",
           "type": "color",
           "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages."
         },
         "hovered": {
-          "value": "#cce0ff",
+          "value": "{color.blue.400}",
           "type": "color",
           "description": "Hovered state of color.background.information"
         },
         "pressed": {
-          "value": "#85b8ff",
+          "value": "{color.blue.800}",
           "type": "color",
           "description": "Pressed state of color.background.information"
         }
@@ -140,12 +140,12 @@
     },
     "link": {
       "default": {
-        "value": "#0c66e4",
+        "value": "{color.blue.600}",
         "type": "color",
         "description": "Use for links in a default or hovered state. Add an underline for hovered states."
       },
       "pressed": {
-        "value": "#0055cc",
+        "value": "{color.blue.800}",
         "type": "color",
         "description": "Use for links in a pressed state."
       }
@@ -165,7 +165,7 @@
     "raised": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Use for the background of raised cards, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised"
+      "description": "Use for the background of raised cards. Combine with shadow.sm"
     },
     "overlay": {
       "value": "#ffffff",
