@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "transform-light": "",
-    "transform-dark": "",
+    "transform-light": "npx token-transformer data tokens/light.json global,light dark --expandShadow",
+    "transform-dark": "npx token-transformer data tokens/dark.json global,dark light --expandShadow",
     "transform": "yarn transform-light && yarn transform-dark",
     "build": "node ./script/build.js"
   },

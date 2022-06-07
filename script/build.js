@@ -1,7 +1,5 @@
 const StyleDictionaryPackage = require("style-dictionary");
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
-
 StyleDictionaryPackage.registerFormat({
   name: "css/variables",
   formatter: function (dictionary, config) {
@@ -32,13 +30,37 @@ StyleDictionaryPackage.registerTransform({
   },
 });
 
+/**
+ * Transform shadow shorthands for css variables
+ */
+function transformShadow(shadow) {
+  const { x, y, blur, spread, color } = shadow;
+  return `${x} ${y} ${blur} ${spread} ${color}`;
+}
+StyleDictionaryPackage.registerTransform({
+  name: "shadow/shorthand",
+  type: "value",
+  transitive: true,
+  matcher: (token) => ["boxShadow"].includes(token.type),
+  transformer: (token) => {
+    return Array.isArray(token.original.value)
+      ? token.original.value.map((single) => transformShadow(single)).join(", ")
+      : transformShadow(token.original.value);
+  },
+});
+
 function getStyleDictionaryConfig(theme) {
   return {
     source: [`tokens/${theme}.json`],
     platforms: {
       web: {
-        transforms: ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        buildPath: `output/`,
+        transforms: [
+          "attribute/cti",
+          "name/cti/kebab",
+          "sizes/px",
+          "shadow/shorthand",
+        ],
+        buildPath: `dist/`,
         files: [
           {
             destination: `${theme}.css`,
