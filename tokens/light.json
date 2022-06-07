@@ -44,7 +44,7 @@
     },
     "border": {
       "default": {
-        "value": "rgba(209 213 219 0.26);",
+        "value": "rgba(209 213 219 0.26)",
         "type": "color",
         "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
       }
@@ -110,29 +110,29 @@
           "description": "Use for backgrounds communicating a favourable outcome, such as in success section messages."
         },
         "hovered": {
-          "value": "#baf3db",
+          "value": "#4ade80",
           "type": "color",
           "description": "Hovered state for color.background.success"
         },
         "pressed": {
-          "value": "#7ee2b8",
+          "value": "#157f3c",
           "type": "color",
           "description": "Pressed state for color.background.success"
         }
       },
       "information": {
         "default": {
-          "value": "#e9f2ff",
+          "value": "#91c3fd",
           "type": "color",
           "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages."
         },
         "hovered": {
-          "value": "#cce0ff",
+          "value": "#61a6fa",
           "type": "color",
           "description": "Hovered state of color.background.information"
         },
         "pressed": {
-          "value": "#85b8ff",
+          "value": "#1e3fae",
           "type": "color",
           "description": "Pressed state of color.background.information"
         }
@@ -140,12 +140,12 @@
     },
     "link": {
       "default": {
-        "value": "#0c66e4",
+        "value": "#2463eb",
         "type": "color",
         "description": "Use for links in a default or hovered state. Add an underline for hovered states."
       },
       "pressed": {
-        "value": "#0055cc",
+        "value": "#1e3fae",
         "type": "color",
         "description": "Use for links in a pressed state."
       }
@@ -1097,7 +1097,7 @@
     "raised": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Use for the background of raised cards, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised"
+      "description": "Use for the background of raised cards. Combine with shadow.sm"
     },
     "overlay": {
       "value": "#ffffff",
