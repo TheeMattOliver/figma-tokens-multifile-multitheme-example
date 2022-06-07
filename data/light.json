@@ -44,7 +44,7 @@
     },
     "border": {
       "default": {
-        "value": "rgba(209 213 219 0.26);",
+        "value": "rgba(209 213 219 0.26)",
         "type": "color",
         "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
       }
