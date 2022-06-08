@@ -49,6 +49,10 @@
     "normal": {
       "value": "SF Pro Text",
       "type": "fontFamilies"
+    },
+    "mono": {
+      "value": "Monaco",
+      "type": "fontFamilies"
     }
   },
   "lineHeights": {
