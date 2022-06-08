@@ -50,5 +50,19 @@
       "value": "SF Pro Text",
       "type": "fontFamilies"
     }
+  },
+  "lineHeights": {
+    "default": {
+      "value": "20",
+      "type": "lineHeights"
+    },
+    "condensed": {
+      "value": "18",
+      "type": "lineHeights"
+    },
+    "condensedUltra": {
+      "value": "16",
+      "type": "lineHeights"
+    }
   }
 }
