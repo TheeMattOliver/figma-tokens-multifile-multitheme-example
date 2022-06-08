@@ -44,5 +44,11 @@
       "value": "96px",
       "type": "fontSizes"
     }
+  },
+  "fontFamilies": {
+    "normal": {
+      "value": "SF Pro Text",
+      "type": "fontFamilies"
+    }
   }
 }
