@@ -1,1 +1,48 @@
-{}
+{
+  "fontSizes": {
+    "0": {
+      "value": "12px",
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": "14px",
+      "type": "fontSizes"
+    },
+    "2": {
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "3": {
+      "value": "20px",
+      "type": "fontSizes"
+    },
+    "4": {
+      "value": "24px",
+      "type": "fontSizes"
+    },
+    "5": {
+      "value": "32px",
+      "type": "fontSizes"
+    },
+    "6": {
+      "value": "40px",
+      "type": "fontSizes"
+    },
+    "7": {
+      "value": "48px",
+      "type": "fontSizes"
+    },
+    "8": {
+      "value": "64px",
+      "type": "fontSizes"
+    },
+    "9": {
+      "value": "72px",
+      "type": "fontSizes"
+    },
+    "10": {
+      "value": "96px",
+      "type": "fontSizes"
+    }
+  }
+}
