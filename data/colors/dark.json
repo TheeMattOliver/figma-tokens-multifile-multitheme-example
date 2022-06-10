@@ -1,0 +1,217 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.gray.100}",
+        "type": "color",
+        "description": "Use for primary text, such as body copy, sentence case headers, and buttons."
+      },
+      "subtle": {
+        "value": "{color.gray.600}",
+        "type": "color",
+        "description": "Use for secondary text, such as navigation, subtle button links, input field labels, and all caps subheadings."
+      },
+      "disabled": {
+        "value": "{color.gray.700}",
+        "type": "color",
+        "description": "Use for text in a disabled state."
+      },
+      "danger": {
+        "value": "{color.red.400}",
+        "type": "color",
+        "description": "Use for critical text, such as input field error messaging."
+      },
+      "success": {
+        "value": "{color.green.400}",
+        "type": "color",
+        "description": "Use for text to communicate a favourable outcome, such as input field success messaging."
+      },
+      "discovery": {
+        "value": "{color.purple.400}",
+        "type": "color",
+        "description": "Use for text to emphasize change or something new, such as in new lozenges."
+      },
+      "information": {
+        "value": "{color.blue.400}",
+        "type": "color",
+        "description": "Use for informative text or to communicate something is in progress, such as in-progress lozenges."
+      },
+      "warning": {
+        "value": "{color.yellow.400}",
+        "type": "color",
+        "description": "Use for text to emphasize caution, such as in moved lozenges."
+      }
+    },
+    "border": {
+      "default": {
+        "value": "rgba(209, 213, 219, 0.26)",
+        "type": "color",
+        "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
+      }
+    },
+    "background": {
+      "brand": {
+        "bold": {
+          "default": {
+            "value": "{color.blue.700}",
+            "type": "color",
+            "description": "Use for the background of elements used to reinforce our brand, but with more emphasis."
+          },
+          "hovered": {
+            "value": "{color.blue.300}",
+            "type": "color",
+            "description": "Hovered state of color.background.brand.bold"
+          },
+          "pressed": {
+            "value": "{color.blue.100}",
+            "type": "color",
+            "description": "Pressed state of color.background.brand.bold"
+          }
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "description": "Use for backgrounds communicating critical informaton, such in error section messages."
+        },
+        "hovered": {
+          "value": "{color.red.300}",
+          "type": "color",
+          "description": "Hovered state for color.background.danger"
+        },
+        "pressed": {
+          "value": "{color.red.100}",
+          "type": "color",
+          "description": "Pressed state for color.background.danger"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.yellow.700}",
+          "type": "color",
+          "description": "Use for backgrounds communicating caution, such as in warning section messages."
+        },
+        "hovered": {
+          "value": "{color.yellow.300}",
+          "type": "color",
+          "description": "Hovered state for color.background.warning"
+        },
+        "pressed": {
+          "value": "{color.yellow.100}",
+          "type": "color",
+          "description": "Pressed state for color.background.warning"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.green.700}",
+          "type": "color",
+          "description": "Use for backgrounds communicating a favourable outcome, such as in success section messages."
+        },
+        "hovered": {
+          "value": "{color.green.300}",
+          "type": "color",
+          "description": "Hovered state for color.background.success"
+        },
+        "pressed": {
+          "value": "{color.green.100}",
+          "type": "color",
+          "description": "Pressed state for color.background.success"
+        }
+      },
+      "information": {
+        "default": {
+          "value": "{color.blue.700}",
+          "type": "color",
+          "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages."
+        },
+        "hovered": {
+          "value": "{color.blue.300}",
+          "type": "color",
+          "description": "Hovered state of color.background.information"
+        },
+        "pressed": {
+          "value": "{color.blue.100}",
+          "type": "color",
+          "description": "Pressed state of color.background.information"
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "value": "{color.blue.700}",
+        "type": "color",
+        "description": "Use for links in a default or hovered state. Add an underline for hovered states."
+      },
+      "pressed": {
+        "value": "{color.blue.300}",
+        "type": "color",
+        "description": "Use for links in a pressed state."
+      }
+    }
+  },
+  "canvas": {
+    "default": {
+      "value": "{color.gray.900}",
+      "type": "color",
+      "description": "Use as the primary background for the UI."
+    },
+    "raised": {
+      "value": "{color.gray.800}",
+      "type": "color",
+      "description": "Use for the background of raised cards. Combine with shadow.sm"
+    },
+    "overlay": {
+      "value": "{color.gray.800}",
+      "type": "color",
+      "description": "Use for the background of elements that sit on top of they UI, such as modals, dropdown menus, flags, and inline dialogs. Combine with elevation.shadow.overlay\n\nAlso use for the background of raised cards in a dragged state."
+    }
+  },
+  "shadow": {
+    "small": {
+      "value": [
+        {
+          "color": "#091e4240",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "1",
+          "spread": "0"
+        },
+        {
+          "color": "#091e424f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Use for the box shadow of raised card elements"
+    },
+    "medium": {
+      "value": [
+        {
+          "color": "#091e4226",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "8",
+          "blur": "12",
+          "spread": "0"
+        },
+        {
+          "color": "#091e424f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Use for the box shadow of elements that sit on top of the UI, such as modals, dropdown menus, flags, and inline dialogs. "
+    }
+  }
+}
