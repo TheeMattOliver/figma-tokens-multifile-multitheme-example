@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "transform-light": "npx token-transformer data tokens/light.json global,light dark --expandShadow",
-    "transform-dark": "npx token-transformer data tokens/dark.json global,dark light --expandShadow",
+    "transform-light": "npx token-transformer data tokens/light.json global,light,base/radii,base/size,base/typography dark --expandShadow",
+    "transform-dark": "npx token-transformer data tokens/dark.json global,dark,base/radii,base/size,base/typography light --expandShadow",
     "transform": "yarn transform-light && yarn transform-dark",
     "build": "node ./script/build.js"
   },
@@ -24,6 +24,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@changesets/cli": "^2.22.0",
     "style-dictionary": "^3.7.0",
     "token-transformer": "^0.0.23"
   }
