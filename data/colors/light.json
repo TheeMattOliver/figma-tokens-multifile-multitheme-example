@@ -2,17 +2,17 @@
   "color": {
     "text": {
       "default": {
-        "value": "{color.scale.gray.800}",
+        "value": "{color.gray.800}",
         "type": "color",
         "description": "Use for primary text, such as body copy, sentence case headers, and buttons."
       },
       "subtle": {
-        "value": "{color.scale.gray.500}",
+        "value": "{color.gray.500}",
         "type": "color",
         "description": "Use for secondary text, such as navigation, subtle button links, input field labels, and all caps subheadings."
       },
       "disabled": {
-        "value": "{color.scale.gray.400}",
+        "value": "{color.gray.400}",
         "type": "color",
         "description": "Use for text in a disabled state."
       },
@@ -158,7 +158,7 @@
       "description": "Use as the primary background for the UI."
     },
     "raised": {
-      "value": "{color.scale.gray.200}",
+      "value": "{color.gray.200}",
       "type": "color",
       "description": "Use for the background of raised cards. Combine with shadow.sm"
     },
