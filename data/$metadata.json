@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "base/radii",
+    "base/size",
+    "base/typography",
+    "colors/dark",
+    "colors/light",
+    "colors/scale"
+  ]
+}

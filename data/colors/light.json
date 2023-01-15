@@ -40,6 +40,11 @@
         "value": "{color.yellow.700}",
         "type": "color",
         "description": "Use for text to emphasize caution, such as in moved lozenges."
+      },
+      "inverse": {
+        "value": "{color.gray.100}",
+        "type": "color",
+        "description": "Use for text on bold backgrounds"
       }
     },
     "border": {
